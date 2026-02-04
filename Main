@@ -2,5 +2,5 @@ git init
 git add .
 git commit -m "Website clone"
 git branch -M main
-git remote add origin https://github.com/yourusername/repo.git
+git remote add origin https://github.com/anuragc0des/Ask-her-out.git
 git push -u origin main
