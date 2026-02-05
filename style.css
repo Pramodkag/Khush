@@ -43,6 +43,10 @@ body {
   margin: 0;
   height: 100vh;
   font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -61,6 +65,7 @@ body::before {
   filter: blur(8px);
   z-index: -1;
 }
+
 
 
 
