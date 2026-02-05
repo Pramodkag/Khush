@@ -14,6 +14,8 @@
   gap: 20px;
   max-width: 500px;
   margin: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .container .tenor-gif-embed {
@@ -59,6 +61,7 @@ body::before {
   filter: blur(8px);
   z-index: -1;
 }
+
 
 
 
