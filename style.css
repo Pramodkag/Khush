@@ -38,15 +38,13 @@
   font-weight: bold;
 }
 body {
-  background: linear-gradient(-45deg, #ffd6e0, #ffe6eb, #ffc2d1, #ffe0e9);
-  background-size: 400% 400%;
-  animation: gradientBG 8s ease infinite;
-}
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
 
-@keyframes gradientBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  background: url("IMG_20260123_100856.jpg") no-repeat center center/cover;
+  position: relative;
 }
 
 
